@@ -1,0 +1,165 @@
+#title {
+  background-color: #E64848;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* --navigation - section*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+.download-button {
+  margin: 3% 5% 3% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* --features - section*/
+#features {
+  padding: 10% 10%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+
+.fa-solid {
+  color: #ef8172;
+  font-size: 4.0rem;
+  padding: 1.0rem;
+}
+
+.fa-solid:hover {
+  color: #E64848;
+}
+
+p {
+  color: grey;
+  padding: 0 2.0rem;
+}
+
+/* --testimonial- section*/
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+/*--font-size:3rem;*/
+#press {
+  background-color: #ef8172;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.pic {
+  width: 24%;
+  padding: 0 3%;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+.testimonial-images {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/*pricing-section*/
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/*cta-section*/
+#cta {
+  background-color: #E64848;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.card-body {
+  padding: 7% 10%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.discription {
+  padding: 0 7%;
+  font-size: 3.5rem
+}
+
+/*footer section--*/
+#footer {
+  text-align: center;
+  padding: 7% 5%;
+}
+
+.icons {
+  margin: 20px 10px;
+}
+@media (max-width:994px){
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  .discription{
+    padding: 0;
+    font-size: 2.5rem;
+  }
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
